@@ -1,0 +1,146 @@
+.connections {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.connections>p {
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+}
+
+.avatar {
+    margin-top: 25px;
+    margin-left: 85px;
+}
+
+.saveitems {
+    display: flex;
+    padding: 10px;
+}
+
+.saveitems>p {
+    font-weight: 500;
+    padding: 3px;
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.body {
+    display: flex;
+    padding: 20px 80px;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+}
+
+.body__left {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    margin: 12px;
+}
+
+.body__right {
+    flex: 0.3;
+    margin: 12px;
+}
+
+.body__accountInfo {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.body__accountInfo>h4 {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* .avatar {
+    align-items: center;
+} */
+
+.body__accountInfo>p {
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.body__center {
+    flex: 0.5;
+    margin: 12px;
+}
+
+.body__recentsgroups {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.body__recentsRow {
+    display: flex;
+    padding: 5px;
+}
+
+.body__groups {
+    margin-top: 20px;
+}
+
+.body__recentsRow>p {
+    color: gray;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.body__recentsRow>p:hover {
+    color: #4799c6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.body__recentsRow>.MuiSvgIcon-root {
+    font-size: 24px;
+    color: gray;
+}
+
+.body__recents>h5 {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: gray;
+}
+
+.body__groups>h5 {
+    color: gray;
+    margin-bottom: 4px;
+}
+
+.body__recentsgroups>p {
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.body__recentsgroups>p:hover {
+    color: #4799c6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.body__recentsgroups>hr {
+    margin-top: 8px;
+    color: gray;
+}

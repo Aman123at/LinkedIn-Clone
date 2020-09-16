@@ -1,0 +1,55 @@
+.bodyRight {
+    padding: 10px;
+    background-color: white;
+}
+
+.bodyRight__row {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
+.bodyRight__row:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.bodyRight__content>h5:hover {
+    color: #3aaddb;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bodyRight__row>.MuiSvgIcon-root {
+    font-size: 15px;
+    color: #3aaddb;
+}
+
+.heading>.MuiSvgIcon-root {
+    font-size: 15px;
+    color: gray;
+}
+
+.heading>.MuiSvgIcon-root:hover {
+    font-size: 17px;
+    color: #3aaddb;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bodyRight__content {
+    margin-left: 10px;
+}
+
+.bodyRight__content>p {
+    font-size: 13px;
+    color: grey;
+}
+
+.bodyRight__content>h5 {
+    font-weight: 500;
+}

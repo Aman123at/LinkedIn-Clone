@@ -1,0 +1,82 @@
+.post>hr {
+    margin-top: 20px;
+    color: gray;
+}
+
+.post__body {
+    margin-top: 20px;
+}
+
+.post__headerIcons,
+.startpost {
+    display: flex;
+    padding: 20px;
+}
+
+.post__header>hr {
+    border: 1px solid #eeeeee;
+}
+
+.startpost {
+    padding: 25px;
+}
+
+.startpost>.MuiSvgIcon-root {
+    color: gray;
+}
+
+.startpost>input {
+    flex: 1;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+}
+
+.startpost> :focus {
+    outline-width: 0;
+}
+
+.startpost:hover,
+.startpost>input:hover {
+    background-color: #efefef;
+}
+
+.post__headerIcons {
+    justify-content: space-evenly;
+}
+
+.Icon {
+    display: flex;
+}
+
+.Icon:hover {
+    background-color: #efefef;
+}
+
+.Icon>h5 {
+    padding: 3px;
+    color: gray;
+    font-weight: 500;
+}
+
+.photo {
+    color: #33aada;
+}
+
+.video {
+    color: #9896f2;
+}
+
+.article {
+    color: #ef7e37;
+}
+
+.document {
+    color: #17afb8;
+}
+
+.post__header {
+    border: 1px solid lightgray;
+    background-color: white;
+}
